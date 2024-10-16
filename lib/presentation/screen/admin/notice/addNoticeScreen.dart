@@ -181,6 +181,7 @@ class _AddNoticeScreenState extends State<AddNoticeScreen> {
     });
   }
 
+
   Future<dynamic>? progressIndicater(BuildContext context, showLoading) {
     if (showLoading == true) {
       return showDialog(
